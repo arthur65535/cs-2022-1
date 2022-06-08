@@ -1,4 +1,6 @@
-﻿1. Qual o comando para obter a versão instalada do Git?
+﻿### Tarefa 003: Git Exercícios - 03/06/2021﻿
+ 
+ 1. Qual o comando para obter a versão instalada do Git?
 git --version.
 
 2. Qual o efeito da execução de cada um dos comandos abaixo?
