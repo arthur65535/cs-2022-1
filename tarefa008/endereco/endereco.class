@@ -1,0 +1,60 @@
+public interface IEndereco {
+    public ConsultaPorCep(){
+        
+    }
+}
+
+public class IEnderecolmpl implements IEndereco {
+
+}
+
+public enum TipoLogradouro {
+    private Alameda;
+    private Avenida;
+    private Marginal;
+    private Rua;
+    private Rodovia;
+    private Via;
+    private Viela;
+    private Travessa;
+}
+
+public class Logradouro {
+    private String nome;
+    private TipoLogradouro tipo;
+}
+
+public class Endereco {
+    private Logradouro log;
+    private int numero;
+    private String Complemento;
+    private int CEP;
+    private Bairro bairr;
+}
+
+public class PessoaFisica {
+    private String nome;
+    private String sexo;
+    private Date dataNascimento;
+    private Endereco end;
+}
+
+public class Bairro {
+    private String nome;
+    private Cidade cid;
+}
+
+public class Cidade {
+    private String nome;
+    private Estado est;
+}
+
+public class Estado {
+    private String sigla;
+    public String nome;
+    public Pais paiss;
+}
+
+public class Pais {
+    public String nome;
+}
